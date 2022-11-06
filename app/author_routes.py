@@ -1,5 +1,5 @@
 from app import db
-from app.models.book import Author
+from app.models.author import Author
 from flask import Blueprint, jsonify, make_response, request, abort
 from app.book_routes import validate_model
 
